@@ -6,6 +6,7 @@
 </head>
 <body>
     <h2>Tambah Mata Kuliah</h2>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <form method="post" action="index.php?page=matakuliah&action=store">
         <label>Kode MK</label><br>
         <input type="text" name="kode_mk" required><br><br>
